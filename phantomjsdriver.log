@@ -1,0 +1,1205 @@
+[INFO  - 2014-06-05T17:44:11.537Z] GhostDriver - Main - running on port 42937
+[INFO  - 2014-06-05T17:44:12.105Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T17:44:12.105Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T17:44:12.105Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1559091388}}
+[INFO  - 2014-06-05T17:44:12.105Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1559091388}}
+[INFO  - 2014-06-05T17:44:12.105Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 010e2750-ecd9-11e3-a2e1-bb0bc87b711c
+[ERROR - 2014-06-05T17:44:42.799Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:44:42.799Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:44:42.807Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:44:42.808Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:44:42.809Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T17:44:42.809Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:44:42.825Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T17:44:42.825Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:44:42.826Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:44:42.827Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:44:42.827Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:44:42.827Z] Session [010e2750-ecd9-11e3-a2e1-bb0bc87b711c] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T17:44:50.629Z] GhostDriver - Main - running on port 11915
+[INFO  - 2014-06-05T17:44:50.888Z] Session [182c1f50-ecd9-11e3-a60f-e127cead7201] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T17:44:50.888Z] Session [182c1f50-ecd9-11e3-a60f-e127cead7201] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T17:44:50.888Z] Session [182c1f50-ecd9-11e3-a60f-e127cead7201] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":763992371}}
+[INFO  - 2014-06-05T17:44:50.888Z] Session [182c1f50-ecd9-11e3-a60f-e127cead7201] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":763992371}}
+[INFO  - 2014-06-05T17:44:50.888Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 182c1f50-ecd9-11e3-a60f-e127cead7201
+[ERROR - 2014-06-05T17:44:59.762Z] RouterReqHand - _handle - Thrown => {
+  "message": "Error Message => 'Unable to close window (closed already?)'\n caused by Request => {\"headers\":{\"Accept\":\"application/json, image/png\",\"Connection\":\"Keep-Alive\",\"Host\":\"localhost:11915\"},\"httpVersion\":\"1.1\",\"method\":\"DELETE\",\"url\":\"/window\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"window\",\"directory\":\"/\",\"path\":\"/window\",\"relative\":\"/window\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/window\",\"queryKey\":{},\"chunks\":[\"window\"]},\"urlOriginal\":\"/session/182c1f50-ecd9-11e3-a60f-e127cead7201/window\"}",
+  "name": "NoSuchWindow",
+  "errorStatusCode": 23,
+  "errorSessionId": "182c1f50-ecd9-11e3-a60f-e127cead7201",
+  "errorClassName": "SessionReqHand",
+  "errorScreenshot": "",
+  "line": 811,
+  "sourceId": 4508431616,
+  "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+  "stack": "NoSuchWindow: Error Message => 'Unable to close window (closed already?)'\n caused by Request => {\"headers\":{\"Accept\":\"application/json, image/png\",\"Connection\":\"Keep-Alive\",\"Host\":\"localhost:11915\"},\"httpVersion\":\"1.1\",\"method\":\"DELETE\",\"url\":\"/window\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"window\",\"directory\":\"/\",\"path\":\"/window\",\"relative\":\"/window\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/window\",\"queryKey\":{},\"chunks\":[\"window\"]},\"urlOriginal\":\"/session/182c1f50-ecd9-11e3-a60f-e127cead7201/window\"}\n    at :/ghostdriver/request_handlers/session_request_handler.js:811\n    at :/ghostdriver/request_handlers/session_request_handler.js:94\n    at :/ghostdriver/request_handlers/request_handler.js:61\n    at :/ghostdriver/request_handlers/router_request_handler.js:78",
+  "stackArray": [
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+      "line": 811
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+      "line": 94
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/request_handler.js",
+      "line": 61
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/router_request_handler.js",
+      "line": 78
+    }
+  ]
+}
+[INFO  - 2014-06-05T17:47:43.702Z] GhostDriver - Main - running on port 41505
+[INFO  - 2014-06-05T17:47:44.064Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T17:47:44.065Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T17:47:44.065Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1828416123}}
+[INFO  - 2014-06-05T17:47:44.065Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1828416123}}
+[INFO  - 2014-06-05T17:47:44.065Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68
+[ERROR - 2014-06-05T17:47:49.902Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:47:49.902Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:47:49.911Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:47:49.911Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:47:49.912Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T17:47:49.913Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:47:49.928Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T17:47:49.928Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:47:49.929Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:47:49.930Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:47:49.930Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:47:49.930Z] Session [7f64d5e0-ecd9-11e3-9d66-eb3583e1fe68] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T17:47:53.648Z] GhostDriver - Main - running on port 38526
+[INFO  - 2014-06-05T17:47:53.909Z] Session [8542c210-ecd9-11e3-b825-d18cd4d989af] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T17:47:53.909Z] Session [8542c210-ecd9-11e3-b825-d18cd4d989af] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T17:47:53.909Z] Session [8542c210-ecd9-11e3-b825-d18cd4d989af] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1210802028}}
+[INFO  - 2014-06-05T17:47:53.909Z] Session [8542c210-ecd9-11e3-b825-d18cd4d989af] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1210802028}}
+[INFO  - 2014-06-05T17:47:53.909Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8542c210-ecd9-11e3-b825-d18cd4d989af
+[INFO  - 2014-06-05T17:47:58.947Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T17:48:20.754Z] GhostDriver - Main - running on port 33039
+[INFO  - 2014-06-05T17:48:21.123Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T17:48:21.123Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T17:48:21.123Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T17:48:21.124Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T17:48:21.124Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 957b21e0-ecd9-11e3-950a-a7658afc8d27
+[ERROR - 2014-06-05T17:48:50.600Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:48:50.600Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:48:50.608Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:48:50.608Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:48:50.610Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T17:48:50.610Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:48:50.625Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T17:48:50.625Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:48:50.626Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:48:50.626Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T17:48:50.626Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T17:48:50.626Z] Session [957b21e0-ecd9-11e3-950a-a7658afc8d27] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T17:48:54.337Z] GhostDriver - Main - running on port 47855
+[INFO  - 2014-06-05T17:48:54.633Z] Session [a9748150-ecd9-11e3-b43c-bfc644504a21] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T17:48:54.633Z] Session [a9748150-ecd9-11e3-b43c-bfc644504a21] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T17:48:54.633Z] Session [a9748150-ecd9-11e3-b43c-bfc644504a21] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1276562683}}
+[INFO  - 2014-06-05T17:48:54.633Z] Session [a9748150-ecd9-11e3-b43c-bfc644504a21] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1276562683}}
+[INFO  - 2014-06-05T17:48:54.633Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a9748150-ecd9-11e3-b43c-bfc644504a21
+[INFO  - 2014-06-05T17:48:58.722Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T17:49:11.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T17:49:11.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '010e2750-ecd9-11e3-a2e1-bb0bc87b711c', because windowless
+[INFO  - 2014-06-05T17:49:50.629Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T17:49:50.629Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '182c1f50-ecd9-11e3-a60f-e127cead7201', because windowless
+[INFO  - 2014-06-05T17:52:43.702Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T17:53:20.755Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:01:48.000Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:01:48.000Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:06:48.000Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:06:48.000Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:11:48.000Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:11:48.002Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:12:07.413Z] GhostDriver - Main - running on port 24082
+[INFO  - 2014-06-05T18:12:07.815Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:12:07.815Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:12:07.815Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:12:07.815Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:12:07.815Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e7db5c40-ecdc-11e3-b1af-2d90311438a0
+[ERROR - 2014-06-05T18:12:54.395Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:12:54.395Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:12:54.404Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:12:54.404Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:12:54.405Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:12:54.405Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:12:54.420Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:12:54.420Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:12:54.421Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:12:54.421Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:12:54.421Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:12:54.421Z] Session [e7db5c40-ecdc-11e3-b1af-2d90311438a0] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:16:48.001Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:16:48.002Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:17:07.413Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:19:00.126Z] GhostDriver - Main - running on port 26111
+[INFO  - 2014-06-05T18:19:00.489Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:19:00.489Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:19:00.489Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:19:00.489Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:19:00.489Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ddd46a60-ecdd-11e3-8bd2-4f453c3109c3
+[ERROR - 2014-06-05T18:19:18.585Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:19:18.585Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:19:18.593Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:19:18.593Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:19:18.595Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:19:18.595Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:19:18.611Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:19:18.612Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:19:18.613Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:19:18.613Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:19:18.613Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:19:18.613Z] Session [ddd46a60-ecdd-11e3-8bd2-4f453c3109c3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:19:21.657Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:19:23.383Z] GhostDriver - Main - running on port 15716
+[INFO  - 2014-06-05T18:19:23.645Z] Session [eba1bda0-ecdd-11e3-ad09-dbe90d91e5f6] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:19:23.645Z] Session [eba1bda0-ecdd-11e3-ad09-dbe90d91e5f6] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:19:23.645Z] Session [eba1bda0-ecdd-11e3-ad09-dbe90d91e5f6] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1883116936}}
+[INFO  - 2014-06-05T18:19:23.645Z] Session [eba1bda0-ecdd-11e3-ad09-dbe90d91e5f6] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1883116936}}
+[INFO  - 2014-06-05T18:19:23.645Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: eba1bda0-ecdd-11e3-ad09-dbe90d91e5f6
+[INFO  - 2014-06-05T18:19:32.267Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:19:51.275Z] GhostDriver - Main - running on port 26220
+[INFO  - 2014-06-05T18:19:51.638Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:19:51.638Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:19:51.638Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:19:51.638Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:19:51.638Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fc512230-ecdd-11e3-b23e-e7f5f48790f9
+[ERROR - 2014-06-05T18:20:23.498Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:20:23.498Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:20:23.506Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:20:23.506Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:20:23.508Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:20:23.508Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:20:23.523Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:20:23.524Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:20:23.524Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:20:23.524Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:20:23.525Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:20:23.525Z] Session [fc512230-ecdd-11e3-b23e-e7f5f48790f9] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:20:34.757Z] GhostDriver - Main - running on port 36911
+[INFO  - 2014-06-05T18:20:35.155Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:20:35.155Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:20:35.155Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1846274338}}
+[INFO  - 2014-06-05T18:20:35.156Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1846274338}}
+[INFO  - 2014-06-05T18:20:35.156Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 16414d00-ecde-11e3-842b-4969957c3437
+[ERROR - 2014-06-05T18:21:04.001Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:21:04.001Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:21:04.010Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:21:04.010Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:21:04.012Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:21:04.012Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:21:04.026Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:21:04.027Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:21:04.027Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:21:04.028Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:21:04.028Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:21:04.028Z] Session [16414d00-ecde-11e3-842b-4969957c3437] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:21:48.000Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:21:48.002Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:22:07.413Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:24:51.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:25:34.757Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:26:48.001Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:26:48.003Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:27:07.413Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:29:51.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:30:34.757Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:31:48.002Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:31:48.003Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:32:07.414Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:34:51.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:35:34.757Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:36:48.003Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:36:48.004Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:37:07.416Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:39:51.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:40:34.759Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:41:48.005Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:41:48.005Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:42:07.416Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:44:51.276Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:45:34.761Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:46:48.005Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:46:48.005Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:47:07.417Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:47:16.858Z] GhostDriver - Main - running on port 47982
+[INFO  - 2014-06-05T18:47:17.246Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:47:17.246Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:47:17.246Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"socksPassword":null,"ftpProxy":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:47:17.246Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"socksPassword":null,"ftpProxy":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1341583263}}
+[INFO  - 2014-06-05T18:47:17.246Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d12cfcb0-ece1-11e3-ae09-5fcb59243f58
+[ERROR - 2014-06-05T18:47:48.602Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:47:48.602Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:47:48.611Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:47:48.611Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:47:48.613Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:47:48.613Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:47:48.629Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:47:48.629Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:47:48.630Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:47:48.630Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:47:48.631Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:47:48.631Z] Session [d12cfcb0-ece1-11e3-ae09-5fcb59243f58] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:47:51.251Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:47:52.927Z] GhostDriver - Main - running on port 9924
+[INFO  - 2014-06-05T18:47:53.237Z] Session [e6a07900-ece1-11e3-9e86-1bc353086fe3] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:47:53.238Z] Session [e6a07900-ece1-11e3-9e86-1bc353086fe3] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:47:53.238Z] Session [e6a07900-ece1-11e3-9e86-1bc353086fe3] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"socksPassword":null,"ftpProxy":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1542207465}}
+[INFO  - 2014-06-05T18:47:53.238Z] Session [e6a07900-ece1-11e3-9e86-1bc353086fe3] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"socksPassword":null,"ftpProxy":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1542207465}}
+[INFO  - 2014-06-05T18:47:53.238Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e6a07900-ece1-11e3-9e86-1bc353086fe3
+[INFO  - 2014-06-05T18:47:57.318Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:49:51.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:50:34.761Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:51:48.006Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:51:48.006Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:52:07.417Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:54:49.360Z] GhostDriver - Main - running on port 47364
+[INFO  - 2014-06-05T18:54:49.752Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:54:49.752Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:54:49.753Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1559091388}}
+[INFO  - 2014-06-05T18:54:49.753Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1559091388}}
+[INFO  - 2014-06-05T18:54:49.753Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dee3ec50-ece2-11e3-93c9-33e1412b29e3
+[INFO  - 2014-06-05T18:54:51.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2014-06-05T18:54:57.824Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:54:57.824Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:54:57.832Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:54:57.832Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:54:57.834Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:54:57.834Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:54:57.850Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:54:57.851Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:54:57.851Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:54:57.852Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:54:57.852Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:54:57.852Z] Session [dee3ec50-ece2-11e3-93c9-33e1412b29e3] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:55:00.201Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:55:01.891Z] GhostDriver - Main - running on port 44083
+[INFO  - 2014-06-05T18:55:02.187Z] Session [e64d3370-ece2-11e3-a170-4dd45bd45f88] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:55:02.187Z] Session [e64d3370-ece2-11e3-a170-4dd45bd45f88] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:55:02.187Z] Session [e64d3370-ece2-11e3-a170-4dd45bd45f88] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1082575028}}
+[INFO  - 2014-06-05T18:55:02.187Z] Session [e64d3370-ece2-11e3-a170-4dd45bd45f88] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1082575028}}
+[INFO  - 2014-06-05T18:55:02.187Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e64d3370-ece2-11e3-a170-4dd45bd45f88
+[INFO  - 2014-06-05T18:55:11.198Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:55:23.009Z] GhostDriver - Main - running on port 2746
+[INFO  - 2014-06-05T18:55:23.341Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:55:23.341Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:55:23.341Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1559091388}}
+[INFO  - 2014-06-05T18:55:23.341Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1559091388}}
+[INFO  - 2014-06-05T18:55:23.341Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f2e932a0-ece2-11e3-a206-7f933854ab77
+[ERROR - 2014-06-05T18:55:27.519Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:55:27.520Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:55:27.528Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:55:27.528Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401917202",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:55:27.530Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T18:55:27.530Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:55:27.549Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T18:55:27.549Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401917202",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:55:27.550Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:55:27.550Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T18:55:27.550Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T18:55:27.551Z] Session [f2e932a0-ece2-11e3-a206-7f933854ab77] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T18:55:29.905Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:55:31.601Z] GhostDriver - Main - running on port 28755
+[INFO  - 2014-06-05T18:55:31.896Z] Session [f8026f40-ece2-11e3-a6ee-8385348c9e47] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T18:55:31.896Z] Session [f8026f40-ece2-11e3-a6ee-8385348c9e47] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T18:55:31.896Z] Session [f8026f40-ece2-11e3-a6ee-8385348c9e47] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":185798433}}
+[INFO  - 2014-06-05T18:55:31.896Z] Session [f8026f40-ece2-11e3-a6ee-8385348c9e47] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"noProxy":null,"socksUsername":null,"httpProxy":"10.1.10.70:4444","ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":185798433}}
+[INFO  - 2014-06-05T18:55:31.896Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f8026f40-ece2-11e3-a6ee-8385348c9e47
+[INFO  - 2014-06-05T18:55:34.761Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:55:35.359Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T18:56:48.006Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:56:48.018Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:57:07.417Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T18:59:51.277Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:00:34.762Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:01:48.007Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:01:48.019Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:02:07.417Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:04:51.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:05:34.763Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:06:48.007Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:06:48.020Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:07:07.417Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:09:51.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:10:34.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:11:48.007Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:11:48.020Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:12:07.419Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:14:51.280Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:15:34.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:16:48.008Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:16:48.021Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:17:07.421Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:19:51.281Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:20:34.766Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:21:48.010Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:21:48.023Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:22:07.422Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:24:51.282Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:25:34.766Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:26:48.010Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:26:48.023Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:27:07.423Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:29:51.282Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:30:34.767Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:31:48.011Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:31:48.024Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:32:07.424Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:34:51.283Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:35:34.769Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:36:48.013Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:36:48.026Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:37:07.426Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:39:51.283Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:40:34.770Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:41:48.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:41:48.027Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:42:07.428Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:44:51.285Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:45:34.771Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:46:48.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:46:48.027Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:47:07.429Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:49:51.286Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:50:34.771Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:51:48.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:51:48.028Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:52:07.431Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:54:51.288Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:55:34.771Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:56:48.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:56:48.029Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:57:07.431Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T19:59:51.289Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:00:34.771Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:01:48.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:01:48.030Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:02:07.431Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:04:51.289Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:05:34.771Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:06:48.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:06:48.031Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:07:07.431Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:09:51.290Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:10:34.773Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:11:48.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:11:48.031Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:12:07.432Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:14:51.291Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:15:34.773Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:16:48.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:16:48.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:17:07.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:19:51.291Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:20:34.773Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:21:48.018Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:21:48.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:22:07.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:24:51.291Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:25:34.774Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:26:48.019Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:26:48.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:27:07.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:29:51.291Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:30:34.775Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:31:48.019Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:31:48.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:32:07.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:34:44.554Z] GhostDriver - Main - running on port 2231
+[INFO  - 2014-06-05T20:34:44.968Z] Session [d4512240-ecf0-11e3-9c29-77cdca4c515c] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T20:34:44.968Z] Session [d4512240-ecf0-11e3-9c29-77cdca4c515c] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T20:34:44.968Z] Session [d4512240-ecf0-11e3-9c29-77cdca4c515c] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1393406201}}
+[INFO  - 2014-06-05T20:34:44.969Z] Session [d4512240-ecf0-11e3-9c29-77cdca4c515c] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":1393406201}}
+[INFO  - 2014-06-05T20:34:44.969Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d4512240-ecf0-11e3-9c29-77cdca4c515c
+[INFO  - 2014-06-05T20:34:51.292Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:35:27.502Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-06-05T20:35:34.776Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:36:13.227Z] GhostDriver - Main - running on port 3023
+[INFO  - 2014-06-05T20:36:13.619Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; PPC Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-05T20:36:13.619Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - page.customHeaders:  - {}
+[INFO  - 2014-06-05T20:36:13.619Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - CONSTRUCTOR - Desired Capabilities: {"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":53497422}}
+[INFO  - 2014-06-05T20:36:13.620Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"httpProxy":"10.1.10.70:4444","noProxy":null,"socksUsername":null,"ftpProxy":null,"socksPassword":null,"sslProxy":"10.1.10.70:4444","proxyAutoconfigUrl":null,"proxyType":"MANUAL","class":"org.openqa.selenium.Proxy","autodetect":false,"socksProxy":null,"hCode":53497422}}
+[INFO  - 2014-06-05T20:36:13.620Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 09285b00-ecf1-11e3-b0b5-bbe04149488b
+[INFO  - 2014-06-05T20:36:48.020Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:36:48.033Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2014-06-05T20:36:55.440Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T20:36:55.440Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401999972",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401999972",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T20:36:55.448Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T20:36:55.448Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1401999972",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T20:36:55.450Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: Prototype
+[ERROR - 2014-06-05T20:36:55.450Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 73,
+    "function": ""
+  },
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 76,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T20:36:55.466Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): Error: undefined missing site/commerce-core
+[ERROR - 2014-06-05T20:36:55.466Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401999972",
+    "line": 1,
+    "function": ""
+  },
+  {
+    "file": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1401999972",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T20:36:55.467Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T20:36:55.467Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/files/theme/jquery.jqtransform.js",
+    "line": 366,
+    "function": ""
+  }
+]
+[ERROR - 2014-06-05T20:36:55.467Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2014-06-05T20:36:55.467Z] Session [09285b00-ecf1-11e3-b0b5-bbe04149488b] - Page at 'http://ginosbikes.weebly.com/index.html' - Console Error (stack): [
+  {
+    "file": "http://ginosbikes.weebly.com/index.html",
+    "line": 354,
+    "function": ""
+  }
+]
+[INFO  - 2014-06-05T20:37:07.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:39:51.292Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:40:34.776Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:41:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:41:48.020Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:41:48.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:42:07.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:44:51.293Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:45:34.777Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:46:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:46:48.021Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:46:48.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:47:07.434Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:49:51.293Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:50:34.777Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:51:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:51:48.021Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:51:48.034Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:52:07.435Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:54:51.293Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:55:34.777Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:56:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:56:48.022Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:56:48.035Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:57:07.436Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T20:59:51.294Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:00:34.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:01:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:01:48.022Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:01:48.035Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:02:07.436Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:04:51.294Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:05:34.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:06:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:06:48.023Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:06:48.035Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:07:07.437Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:09:51.294Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:10:34.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:11:13.227Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:11:48.024Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:11:48.036Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:12:07.437Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:14:51.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:15:34.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:16:13.228Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:16:48.025Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:16:48.036Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:17:07.437Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:19:51.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:20:34.779Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:21:13.229Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:21:48.025Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:21:48.036Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:22:07.438Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:24:51.295Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:25:34.779Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:26:13.230Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:26:48.025Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:26:48.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:27:07.438Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:29:51.296Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:30:34.780Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:31:13.230Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:31:48.026Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:31:48.038Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:32:07.438Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:34:51.296Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:35:34.781Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:36:13.230Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:36:48.027Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:36:48.039Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:37:07.439Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:39:51.296Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:40:34.781Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:41:13.230Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:41:48.028Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:41:48.039Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:42:07.439Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:44:51.297Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:45:34.781Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:46:13.231Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:46:48.028Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:46:48.040Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:47:07.439Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:49:51.298Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:50:34.781Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:51:13.231Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:51:48.028Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:51:48.040Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:52:07.440Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:54:51.298Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:55:34.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:56:13.231Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:56:48.028Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:56:48.041Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:57:07.441Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T21:59:51.298Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:00:34.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:01:13.231Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:01:48.029Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:01:48.041Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:02:07.441Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:04:51.299Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:05:34.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:06:13.232Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:06:48.030Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:06:48.042Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:07:07.441Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:09:51.300Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:10:34.783Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:11:13.233Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:11:48.030Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:11:48.042Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:12:07.442Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:14:51.300Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:17:50.013Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:17:50.013Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:17:50.013Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:17:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:17:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:19:51.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:22:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:22:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:22:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:22:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:22:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:24:51.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:27:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:27:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:27:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:27:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:27:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:29:51.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:32:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:32:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:32:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:32:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:32:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:34:51.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:37:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:37:50.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:37:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:37:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:37:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:39:51.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:42:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:42:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:42:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:42:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:42:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:44:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:47:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:47:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:47:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:47:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:47:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:49:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:52:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:52:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:52:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:52:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:52:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:54:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:57:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:57:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:57:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:57:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:57:50.015Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T22:59:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:02:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:02:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:02:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:02:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:02:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:04:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:07:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:07:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:07:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:07:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:07:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:09:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:12:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:12:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:12:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:12:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:12:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:14:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:17:50.016Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:17:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:17:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:17:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:17:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:19:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:22:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:22:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:22:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:22:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:22:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:24:51.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:27:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:27:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:27:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:27:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-05T23:27:50.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

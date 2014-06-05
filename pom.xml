@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ensighten.qatest</groupId>
+  <artifactId>gtest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Tag Tester</name>
+  <description>Tag Tester</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8.8</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>2.37.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>net.lightbody.bmp</groupId>
+  		<artifactId>browsermob-proxy</artifactId>
+  		<version>2.0-beta-9</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.googlecode.json-simple</groupId>
+  		<artifactId>json-simple</artifactId>
+  		<version>1.1.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.openqa.selenium.server</groupId>
+  		<artifactId>selenium-server</artifactId>
+  		<version>1.0-20081010.060147</version>
+  	</dependency>
+  </dependencies>
+</project>

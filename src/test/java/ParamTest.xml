@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Gino's Bikes Site">
+  		<parameter name="testURL"  value="http://www.ginosbikes.weebly.com/"/>
+  		<parameter name="regex"  value="^http://www.google-analytics.com/ga.js"/>
+  		<parameter name="verType"  value="request"/>
+  	<classes>
+    	<class name="mobby.HarTester2">
+    	</class>
+    </classes>
+  </test>
+    <test name="Home Depot">
+  		<parameter name="testURL"  value="http://www.homedepot.com/"/>
+  		<parameter name="regex"  value="^http://www.google-analytics.com/ga.js"/>
+  		<parameter name="verType"  value="request"/>
+  	<classes>
+    	<class name="mobby.HarTester2">
+    	</class>
+    </classes>
+  </test>
+</suite> 
