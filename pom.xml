@@ -37,6 +37,41 @@
   		<version>2.17</version>
   		<type>maven-plugin</type>
   	</dependency>
+  	<dependency>
+    <groupId>harlib</groupId>
+    <artifactId>harhar</artifactId>
+    <version>1.1.1</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/harlib-1.1.1.jar</systemPath>
+</dependency>
+<dependency>
+    <groupId>bcr</groupId>
+    <artifactId>bcr</artifactId>
+    <version>2.0.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/bcr-2.0.2.jar</systemPath>
+</dependency>
+<dependency>
+    <groupId>jackson</groupId>
+    <artifactId>jackson</artifactId>
+    <version>2.2.3</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/jackson-core-2.2.3.jar</systemPath>
+</dependency>
+<dependency>
+    <groupId>jetty</groupId>
+    <artifactId>jetty</artifactId>
+    <version>1.1.1</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/jetty-util-7.3.0.v20110203.jar</systemPath>
+</dependency>
+<dependency>
+    <groupId>json</groupId>
+    <artifactId>json</artifactId>
+    <version>1.1.1</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/json-simple-1.1.1.jar</systemPath>
+</dependency>
   </dependencies>
   <build>
   	<plugins>
@@ -46,7 +81,7 @@
   			<version>2.17</version>
   			<configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
   		</plugin>
