@@ -1,0 +1,40 @@
+{
+  "name":"test1",
+  "productName":"Adacado",
+  "defaultTagTemplateVersion":{
+    "code":"var custom_behavior_1 = function () {{%custom_behavior_1%}};\r\nvar custom_behavior_2 = function () {{%custom_behavior_2%}}\r\nvar custom_client_id = {{custom_client_id}};\r\nvar param_segment = {{param_segment}};\r\nvar param_list_subcategory = {{param_list_subcategory}} ? {{param_list_subcategory}}.split(\'|\') : [];\r\nvar param_name_1 = {{param_name_1}};\r\nvar param_name_2 = {{param_name_2}};\r\nvar param_name_3 = {{param_name_3}};\r\nvar param_name_4 = {{param_name_4}};\r\nvar param_name_5 = {{param_name_5}};\r\nvar param_value_1 = {{param_value_1}};\r\nvar param_value_2 = {{param_value_2}};\r\nvar param_value_3 = {{param_value_3}};\r\nvar param_value_4 = {{param_value_4}};\r\nvar param_value_5 = {{param_value_5}};\r\n\r\ncustom_behavior_1();\r\n\r\nvar local_subcategory = \'\';\r\nfor (var i = 0; i < param_list_subcategory.length; i++) {\r\n\tif (param_list_subcategory[i]) {\r\n\t\tlocal_subcategory += \',\' + param_list_subcategory[i];\r\n\t}\r\n}\r\nlocal_subcategory = local_subcategory.substring(1);\r\n\r\nfunction addUrlParam(aParamName, aParamValue, aParamSeparator, aParamConcat) {\r\n\tvar lParam = \"\";\r\n\r\n\tvar lSeparator = aParamSeparator ? aParamSeparator : \"&\";\r\n\tvar lConcat = aParamConcat ? aParamConcat : \"=\";\r\n\r\n\tif (aParamName && aParamValue)\r\n\t\tlParam += lSeparator + aParamName + lConcat + aParamValue;\r\n\r\n\treturn lParam;\r\n}\r\n\r\nvar local_img_url = (\'https:\' == document.location.protocol ? \'https:\' : \'http:\') + \'\/\/pixel.adacado.com\/\' + custom_client_id + \'?segment=\' + param_segment + \'&subcategory=\' + local_subcategory + addUrlParam(param_name_1,param_value_1) + addUrlParam(param_name_2,param_value_2) + addUrlParam(param_name_3,param_value_3) + addUrlParam(param_name_4,param_value_4) + addUrlParam(param_name_5,param_value_5);\r\n\r\ncustom_behavior_2();\r\nBootstrapper.imageRequest(local_img_url);",
+    "sampleCode":"<script type=\"text\/javascript\" id=\"adacadoPixel\" src=\"\/\/pixel.adacado.com\/\"{{custom_client_id|\"1000105\"}}\"?segment=\"{{param_segment|\"Conversion\"}}\"&subcategory=\"{{param_list_subcategory|\"subcat1|subcat2|subcat3\"}} ><\/script>",
+    "tagConfigAttributes":[
+      {
+        "placeholder":"custom_client_id",
+        "required":true,
+        "inputType":"Text Value",
+        "inputValue":"txtclientid"
+      },
+      {
+        "placeholder":"param_segment",
+        "required":true,
+        "inputType":"Text Value",
+        "inputValue":"txtparamseg"
+      },
+      {       
+        "placeholder":"param_list_subcategory",
+        "required":false,
+        "inputType":"Text Value",
+        "inputValue":"txtsubcat"  
+      },
+      { 
+        "placeholder":"param_name_1",
+        "required":false,
+        "inputType":"Text Value",
+        "inputValue":"txtparname1"
+      },
+      {
+       	"placeholder":"param_value_1",
+        "required":false,
+        "inputType":"Text Value",
+        "inputValue":"txtparval1" 
+      }
+      ]
+  }
+}

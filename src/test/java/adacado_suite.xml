@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AdacdoSuite">
+  <test name="Adacado1">
+  		<parameter name="filePath"  value="/testdata/adacado/test1.json"/>
+  	<classes>
+    	<class name="mobby.TagManAppSmokerTNG">
+    	</class>
+    </classes>
+  </test>
+  <test name="Adacado2">
+  		<parameter name="filePath"  value="/testdata/adacado/test2.json"/>
+  	<classes>
+    	<class name="mobby.TagManAppSmokerTNG">
+    	</class>
+    </classes>
+  </test>
+</suite> 

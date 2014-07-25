@@ -1,0 +1,40 @@
+{
+    "name":"Adperio Tracking Pixel",
+    "productName":"Adperio",
+    "defaultTagTemplateVersion":{
+        "code":"var custom_behaviour_1 = function () {{%custom_behaviour_1%}};\r\n\tvar custom_program_id = {{custom_program_id}};\r\n\tvar param_action = {{param_action}};\r\n\tvar param_p1 = {{param_p1}};\r\n\tvar param_script = {{param_script}};\r\n\tvar param_optp = {{param_optp}};\r\n\r\n\tcustom_behaviour_1();\r\n\r\n\tvar local_img_url = 'https://www.media970.com/cpx?programid=' + custom_program_id + '&action=' + param_action + '&p1=' + param_p1;\r\n\tBootstrapper.imageRequest(local_img_url);\r\n\tvar local_scr_url = 'https://www.media970.com/cpx?script=' + param_script + '&programid=' + custom_program_id + '&action=' + param_action + '&optp=' + param_optp;\r\n\tBootstrapper.insertScript(local_scr_url);",
+        "sampleCode":"<img src='https:\/\/www.media970.com\/cpx?programid='{{custom_program_id|'16233'}}'&action='{{param_action|'lead'}}'&p1='{{param_p1|'Adv_Parameter'}} width=1 height=1 border=0 \/>\r\n<script src='https:\/\/www.media970.com\/cpx?script='{{param_script|'1'}}'&programid='{{custom_program_id|'16233'}}'&action='{{param_action|'lead'}}'&optp='{{param_optp|'1'}}' type=text\/javascript> <\/script>",
+        "tagConfigAttributes":[
+            {
+                "placeholder":"custom_program_id",
+                "required":true,
+                "inputType":"JavaScript",
+                "inputValue":"jsprogramid"
+            },
+            {
+                "placeholder":"param_action",
+                "required":true,
+                "inputType":"JavaScript",
+                "inputValue":""
+            },
+            {
+                "placeholder":"param_p1",
+                "required":true,
+                "inputType":"JavaScript",
+                "inputValue":""
+            },
+            {
+                "placeholder":"param_script",
+                "required":true,
+                "inputType":"JavaScript",
+                "inputValue":""
+            },
+            {
+                "placeholder":"param_optp",
+                "required":true,
+                "inputType":"JavaScript",
+                "inputValue":""
+            }
+        ]
+  }
+}

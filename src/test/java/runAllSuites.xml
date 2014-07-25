@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="allSuites">
+  <suite-files>
+    <suite-file path="./adperio_suite.xml"/>
+    <suite-file path="./adacado_suite.xml"/>
+  </suite-files>
+</suite>
