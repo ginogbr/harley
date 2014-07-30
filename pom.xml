@@ -5,87 +5,74 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Tag Tester</name>
   <description>Tag Tester</description>
-  <dependencies>
+<dependencies>
   	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>2.37.0</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-server</artifactId>
+		<version>2.37.0</version>
+	</dependency>
+	<dependency>
   		<groupId>org.testng</groupId>
   		<artifactId>testng</artifactId>
-  		<version>6.8.8</version>
+  		<version>6.8.5</version>
   	</dependency>
-<dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-java</artifactId>
-      <version>2.37.0</version>
-    </dependency>
+	<dependency>
+		<groupId>com.thetransactioncompany</groupId>
+		<artifactId>java-property-utils</artifactId>
+		<version>1.9.1</version>
+	</dependency>
     <dependency>
-      <groupId>net.lightbody.bmp</groupId>
-      <artifactId>browsermob-proxy</artifactId>
-      <version>2.0-beta-9</version>
+      	<groupId>com.googlecode.json-simple</groupId>
+      	<artifactId>json-simple</artifactId>
+      	<version>1.1.1</version>
     </dependency>
-    <dependency>
-      <groupId>com.googlecode.json-simple</groupId>
-      <artifactId>json-simple</artifactId>
-      <version>1.1.1</version>
+	<dependency>
+    	<groupId>bcr</groupId>
+    	<artifactId>bcr</artifactId>
+    	<version>2.0.0</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/bcr-2.0.2.jar</systemPath>
+	</dependency>
+	<dependency>
+    	<groupId>harlib</groupId>
+    	<artifactId>harhar</artifactId>
+    	<version>1.1.1</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/harlib-1.1.1.jar</systemPath>
+	</dependency>
+	<dependency>
+      	<groupId>net.lightbody.bmp</groupId>
+      	<artifactId>browsermob-proxy</artifactId>
+      	<version>2.0-beta-9</version>
     </dependency>
-    <dependency>
-      <groupId>org.openqa.selenium.server</groupId>
-      <artifactId>selenium-server</artifactId>
-      <version>1.0-20081010.060147</version>
-    </dependency>
-  	<dependency>
-  		<groupId>org.apache.maven.plugins</groupId>
-  		<artifactId>maven-surefire-plugin</artifactId>
-  		<version>2.17</version>
-  		<type>maven-plugin</type>
-  	</dependency>
-  	<dependency>
-    <groupId>harlib</groupId>
-    <artifactId>harhar</artifactId>
-    <version>1.1.1</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/harlib-1.1.1.jar</systemPath>
-</dependency>
-<dependency>
-    <groupId>bcr</groupId>
-    <artifactId>bcr</artifactId>
-    <version>2.0.0</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/bcr-2.0.2.jar</systemPath>
-</dependency>
-<dependency>
-    <groupId>jackson</groupId>
-    <artifactId>jackson</artifactId>
-    <version>2.2.3</version>
-    <scope>system</scope>
+	<dependency>
+    	<groupId>jackson</groupId>
+    	<artifactId>jackson</artifactId>
+    	<version>2.2.3</version>
+    	<scope>system</scope>
     <systemPath>${project.basedir}/lib/jackson-core-2.2.3.jar</systemPath>
-</dependency>
-<dependency>
-    <groupId>jetty</groupId>
-    <artifactId>jetty</artifactId>
-    <version>1.1.1</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/jetty-util-7.3.0.v20110203.jar</systemPath>
-</dependency>
-<dependency>
-    <groupId>json</groupId>
-    <artifactId>json</artifactId>
-    <version>1.1.1</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/json-simple-1.1.1.jar</systemPath>
-</dependency>
-<dependency>
-    <groupId>selstandalone</groupId>
-    <artifactId>selstandalone</artifactId>
-    <version>1.1.1</version>
-    <scope>system</scope>
-    <systemPath>${project.basedir}/lib/selenium-server-standalone-2.32.0.jar</systemPath>
-</dependency>
-<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-firefox-driver</artifactId>
-	<version>2.42.2</version>
-</dependency>
-  </dependencies>
-  <build>
+	</dependency>
+	<dependency>
+    	<groupId>jetty</groupId>
+    	<artifactId>jetty</artifactId>
+    	<version>1.1.1</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/jetty-util-7.3.0.v20110203.jar</systemPath>
+	</dependency>
+	<dependency>
+    	<groupId>json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>1.1.1</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/json-simple-1.1.1.jar</systemPath>
+	</dependency>
+</dependencies>
+<build>
   	<plugins>
   		<plugin>
   			<groupId>org.apache.maven.plugins</groupId>
@@ -98,5 +85,10 @@
                 </configuration>
   		</plugin>
   	</plugins>
-  </build>
+    <resources>
+        <resource>
+            <directory>resources</directory>
+        </resource>
+    </resources>
+</build>
 </project>
