@@ -15,25 +15,25 @@
                 "placeholder":"param_action",
                 "required":true,
                 "inputType":"JavaScript",
-                "inputValue":""
+                "inputValue":"jsparamaction"
             },
             {
                 "placeholder":"param_p1",
                 "required":true,
                 "inputType":"JavaScript",
-                "inputValue":""
+                "inputValue":"jsparam1"
             },
             {
                 "placeholder":"param_script",
                 "required":true,
                 "inputType":"JavaScript",
-                "inputValue":""
+                "inputValue":"jsparamscript"
             },
             {
                 "placeholder":"param_optp",
                 "required":true,
                 "inputType":"JavaScript",
-                "inputValue":""
+                "inputValue":"jsparamopt"
             }
         ]
   }
