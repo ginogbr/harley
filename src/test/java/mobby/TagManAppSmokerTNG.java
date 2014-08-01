@@ -54,7 +54,7 @@ public class TagManAppSmokerTNG {
 	    driver.manage().window().maximize();
 	    driver.get(baseUrl + "#apps");
 	    manageLogin(useraccount,username,userpassword);
-	    driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+	    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 	  }
 
@@ -192,6 +192,7 @@ public class TagManAppSmokerTNG {
 			if(saveApp){
 				driver.findElement(By.cssSelector("button.deployBtn.btn.btn-default")).click();
 				driver.findElement(By.cssSelector("button.newDeployment.btn.btn-default")).click();
+				//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
 				driver.findElement(By.cssSelector("input.userCheckBox")).click();
 				driver.findElement(By.cssSelector("button.enableBtn")).click();
 				WebDriverWait wait = new WebDriverWait(driver, 8);
