@@ -1,6 +1,5 @@
 package mobby;
 
-import java.util.*;
 import java.util.Properties;
 
 public class Config

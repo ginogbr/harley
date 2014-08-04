@@ -188,7 +188,7 @@ public class TagManAppSmokerTNG {
 				}	
 				
 	    
-		// Saves application if saveApp is set else dismiss window.
+		// Saves application if saveApp is set else click Cancel window.
 			if(saveApp){
 				driver.findElement(By.cssSelector("button.deployBtn.btn.btn-default")).click();
 				driver.findElement(By.cssSelector("button.newDeployment.btn.btn-default")).click();
@@ -202,8 +202,9 @@ public class TagManAppSmokerTNG {
 				//driver.findElement(By.cssSelector("button.publishBtn")).click();
 			   }
 			else{
-				driver.findElement(By.className("modalCloseButton")).click();
-				driver.findElement(By.xpath("//div[7]/div[2]/div[2]/div")).click();
+				//Click cancel button the dismiss modal
+				driver.findElement(By.cssSelector("button.btn.btn-default.cancelBtn")).click();
+				driver.findElement(By.cssSelector("button.btn.btn-default.blockingModalYesBtn")).click();
 				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 				}	    
 		
